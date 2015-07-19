@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="bower_components/webcomponentjs/webcomponents.js"></script>
+    <link rel= "import" href="elements/hello-world.html">
+ </head>
+  <body>
+      <div class="container">
+        <header>
+          <div class="row">
+              <div class="col-md-6"><img src="http://lorempixel.com/output/people-q-c-100-100-3.jpg">
+              </div>
+              <div class="col-md-6 text-right text-uppercase">
+                <hello-world></hello-world>
+                <h1>Alain Armand</h1>
+                <h3>Front-end Ninja</h3>
+              </div>
+          </div>
+        </header>
+
+         <section>
+          <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="http://lorempixel.com/output/abstract-q-c-1140-350-3.jpg" data-toggle="modal" data-target="#main-image">
+
+            </div>
+          </div>
+         </section>
+
+          <section>
+            <div class="row">
+            <div class="col-md-12">
+                <h2>Featured Work</h2>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                <img class="img-responsive" src="http://placekitten.com/555/300" data-toggle="modal" data-target="#appify1">
+                    <h3>Appify 1</h3>
+                    <p><a href="http://github.com/kaona">Nothing to see here</a></p>
+                </div>
+                <div class="col-md-6">
+                <img class="img-responsive" src="http://lorempixel.com/555/300" data-toggle="modal" data-target="#appify2">
+                    <h3>Appify 2</h3>
+                    <p><a href="http://github.com/kaona">Nothing to see here</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                  <img src="http://lorempixel.com/555/300/sports/5" data-toggle="modal" data-target="#appify3">
+                  <h3>Appify 3</h3>
+                  <p><a href="http://github.com/kaona">Nothing to see here</a></p>
+                </div>
+                <div class="col-md-6">
+                  <img src="http://lorempixel.com/output/nightlife-q-c-555-300-6.jpg" data-toggle="modal" data-target="#appify4">
+                  <h3>Appify 4</h3>
+                  <p><a href="http://github.com/kaona">Nothing to see here</a></p>
+                </div>
+            </div>
+          </section>
+  </body>
+</html>
+
+<!-- Modal -->
+<div class="modal fade" id="appify1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placekitten.com/555/300">
+        This was my first project in this class. I learned a lot about HTML and CSS.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+<!-- Modal -->
+<div class="modal fade" id="appify2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">2nd Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/555/300">
+        This was my second project in this class. I learned a lot about HTML and CSS.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+<!-- Modal -->
+<div class="modal fade" id="appify3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Another Favorite App</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/555/300/sports/5">
+        This was another project in this class. I learned a lot about HTML and CSS.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal-->
+<div class="modal fade" id="appify4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Last Favorite App</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/output/nightlife-q-c-555-300-6.jpg">
+        One last example project in this class. I learned a lot about HTML and CSS.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal-->
+<div class="modal fade" id="main-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Last Favorite App</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/output/abstract-q-c-1140-350-3.jpg">
+        This is just abstract art I thought you would like.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
