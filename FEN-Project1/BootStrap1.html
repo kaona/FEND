@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Udacity Front End Nanodegree Project 1</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script src="bower_components/webcomponentjs/webcomponents.js"></script>
@@ -9,58 +15,61 @@
  </head>
   <body>
       <div class="container">
-        <header>
+
           <div class="row">
-              <div class="col-md-6"><img src="http://lorempixel.com/output/people-q-c-100-100-3.jpg">
+              <div class="col-md-6">
+                <img class="img-responsive title-logo" src="http://lorempixel.com/output/people-q-c-100-100-3.jpg" alt="My Logo">
               </div>
-              <div class="col-md-6 text-right text-uppercase">
+              <div class="col-md-6 text-right text-uppercase title-super">
                 <hello-world></hello-world>
                 <h1>Alain Armand</h1>
-                <h3>Front-end Ninja</h3>
+                <h4>Front-end Ninja</h4>
               </div>
           </div>
-        </header>
+          <div class="row">
+              <div class="col-md-12"
+                <hr>
+              </div>
 
-         <section>
+
+
           <div class="row">
             <div class="col-md-12">
-                <img class="img-responsive" src="http://lorempixel.com/output/abstract-q-c-1140-350-3.jpg" data-toggle="modal" data-target="#main-image">
-
+                <img class="img-responsive" src="http://lorempixel.com/output/abstract-q-c-1140-350-3.jpg" alt="hero abstract image" data-toggle="modal" data-target="#main-image">
             </div>
           </div>
-         </section>
 
-          <section>
-            <div class="row">
-            <div class="col-md-12">
-                <h2>Featured Work</h2>
-            </div>
-            </div>
-            <div class="row">
+
+          <div class="row">
+              <div class="col-md-12">
+                  <h2>Featured Work</h2>
+              </div>
+          </div>
+          <div class="row text-center">
                 <div class="col-md-6">
-                <img class="img-responsive" src="http://placekitten.com/555/300" data-toggle="modal" data-target="#appify1">
-                    <h3>Appify 1</h3>
+                <img class="img-responsive" src="http://placekitten.com/555/300" data-toggle="modal" alt="Kitty Placeholder" data-target="#appify1">
+                    <h3 class="text-uppercase">Appify</h3>
                     <p><a href="http://github.com/kaona">Nothing to see here</a></p>
                 </div>
                 <div class="col-md-6">
-                <img class="img-responsive" src="http://lorempixel.com/555/300" data-toggle="modal" data-target="#appify2">
-                    <h3>Appify 2</h3>
+                <img class="img-responsive" src="http://lorempixel.com/555/300" data-toggle="modal" alt="Person's Face" data-target="#appify2">
+                    <h3 class="text-uppercase">Appify</h3>
                     <p><a href="http://github.com/kaona">Nothing to see here</a></p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-6">
-                  <img src="http://lorempixel.com/555/300/sports/5" data-toggle="modal" data-target="#appify3">
-                  <h3>Appify 3</h3>
+                  <img class="img-responsive" src="http://lorempixel.com/555/300/sports/5" data-toggle="modal" alt="sports image" data-target="#appify3">
+                  <h3 class="text-uppercase">Appify</h3>
                   <p><a href="http://github.com/kaona">Nothing to see here</a></p>
                 </div>
                 <div class="col-md-6">
-                  <img src="http://lorempixel.com/output/nightlife-q-c-555-300-6.jpg" data-toggle="modal" data-target="#appify4">
-                  <h3>Appify 4</h3>
+                  <img class="img-responsive" src="http://lorempixel.com/output/nightlife-q-c-555-300-6.jpg" data-toggle="modal" alt="nightlife image" data-target="#appify4">
+                  <h3 class="text-uppercase">Appify</h3>
                   <p><a href="http://github.com/kaona">Nothing to see here</a></p>
                 </div>
             </div>
-          </section>
+      </div>
   </body>
 </html>
 
