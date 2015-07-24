@@ -11,8 +11,9 @@ hr {
 }
 
 body {
-  font: Lato, sans-serif #676858 300;
-
+  font: Lato, sans-serif;
+  color: #676858;
+  font-weight: 300;
 }
 
 .title-super {
