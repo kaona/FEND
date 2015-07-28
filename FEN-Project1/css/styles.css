@@ -4,24 +4,22 @@ hr {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-color: #eeeeee -moz-use-text-color #ffffff;
   border-style: solid none;
   border-width: 1px 0;
   margin: 18px 0;
 }
 
 body {
-  font: Lato, sans-serif;
+  font: "Lato", sans-serif;
   color: #676858;
   font-weight: 300;
 }
 
 .title-super {
 	font-size: 60px;
-
 }
 
 .title-logo {
-	margin: 20px 0px 0px 0px;
-
+  margin: 20px 0 0 0;
 }
